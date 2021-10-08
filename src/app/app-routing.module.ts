@@ -8,9 +8,11 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 
 
+
 const routes: Routes = [
   { path: '', redirectTo: '/app', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'register', component: RegisterComponent },
 
   {
