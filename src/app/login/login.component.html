@@ -1,0 +1,56 @@
+
+
+<div class="picture">
+    <img src="../../assets/images/undraw_On_the_way_re_swjt.svg" style="width: 70%;height: 70%;" alt="">
+</div>
+
+
+<div class="flex-container">
+    <!-- Default form login -->
+    <form class="text-center border border-light p-5">
+
+        <p class="h4 mb-4">Hello</p>
+        <p>Sign into your account</p>
+        <!-- Email -->
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+        <!-- Password -->
+        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+        <div class="d-flex justify-content-around">
+            <div class="remember">
+                <!-- Remember me -->
+                <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+            </div>
+            <div>
+                <!-- Forgot password -->
+                <a href="">Forgot password?</a>
+            </div>
+        </div>
+
+        <!-- Sign in button -->
+        <button mdbBtn block="true" class="my-4" routerlink="/home"  type="submit">Login</button>
+
+        <!-- Register -->
+        <p>Don't have an account?
+            <a href="register" >Register now</a>
+        </p>
+
+        <!-- Social login -->
+        <p>or sign in with:</p>
+
+        <a type="button" class="text mx-2">
+            <mdb-icon fab icon="facebook"></mdb-icon>
+        </a>
+        <a type="button" class="text mx-2">
+            <mdb-icon fab icon="twitter"></mdb-icon>
+        </a>
+        <a type="button" class="text mx-2">
+            <mdb-icon fab icon="linkedin"></mdb-icon>
+        </a>
+        <a type="button" class="text mx-2">
+            <mdb-icon fab icon="github"></mdb-icon>
+        </a>
+
+    </form>
+</div>

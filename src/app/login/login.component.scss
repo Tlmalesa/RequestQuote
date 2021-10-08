@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    // margin-top: 26px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+button{
+background-color: #0f869a;
+border-radius: 25px;
+color: white;
+}
+mdb-icon{
+    color: #0f869a; 
+}
+  form{
+      background-color: white;
+      width: 95%;
+      height: 500px;
+      -webkit-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+      -moz-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+      box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+
+    
+  }
+  .picture{
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+     padding: 10px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 70%;
+    margin: 10px;
+    margin-left: 16px;
+    // margin-top: 26px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
