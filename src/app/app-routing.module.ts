@@ -6,7 +6,7 @@ import { MenuComponent } from './default/menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 const routes: Routes = [
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'register', component: RegisterComponent },
-
+  {path: 'app',component:LandingPageComponent},
   {
     path: 'menu', component: MenuComponent, children:
       [
