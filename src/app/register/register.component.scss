@@ -1,43 +1,48 @@
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #f1f1f1;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #d12424;
+  justify-content: center;
+  align-items: center;
   }
   
 button{
-background-color: #0f869a;
-border-radius: 25px;
-color: white;
-margin-left: 4px;
+  background-color: #0f869a;
+  border-radius: 25px;
+  color: white;
+  width: 80%;
+}
+input{
+  width: 80%;
 }
 mdb-icon{
     color: #0f869a; 
 }
   form{
-      background-color: white;
-      width: 88%;
-     margin-left: 25px;
-      height: 500px;
-      -webkit-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
-      -moz-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
-      box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+    background-color: white;
+    width: 35%;
+    height: 500px;
+    -webkit-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+    -moz-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+    box-shadow: 1px 4px 14px -1px rgba(15,134,154,255); 
 
     
   }
   .picture{
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-     padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   padding: 10px;
+  }
+  img{
+    width: 20%;
+    height: 20%;
   }
   .flex-container > div {
     background-color: #f1f1f1;
-    width: 70%;
+    width: 50%;
     margin: 10px;
     margin-left: 16px;
-    // margin-top: 26px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;

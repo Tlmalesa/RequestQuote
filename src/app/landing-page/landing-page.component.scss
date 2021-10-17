@@ -9,18 +9,25 @@
     background: linear-gradient(110deg, #0f869a 30%, #0aac9a 60%);
     
   }
+  
+    img{
+      width: 30%;
+      height: 30%;
+    }
+  
 button{
 background-color: white;
 border-radius: 25px;
 color: #0f869a;
 font-weight: bold;
-width: 60%;
+width: 30%;
 
 }
 
  h6{
      color:white;
      margin-top: 42px;
+     font-size: larger;
  }
  h1{
     color:white; 
@@ -36,13 +43,10 @@ width: 60%;
   }
   .flex-container > div {
     background-color: #f1f1f1;
-    width: 70%;
+    width: 50%;
     margin: 10px;
-    margin-left: 16px;
-    
-    
+    // margin-left: 16px;
     background: linear-gradient(110deg, #0f869a  30%,#0aac9a 60%);
     text-align: center;
-//  height: 150%;
     font-size: 30px;
   }

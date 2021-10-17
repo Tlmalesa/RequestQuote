@@ -13,7 +13,7 @@ export class RegisterComponent implements OnInit {
   }
 onClick()
 {
-this.router.navigate(['/menu/home']);
+this.router.navigate(['/home']);
 
 }
 

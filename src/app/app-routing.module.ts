@@ -12,9 +12,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 const routes: Routes = [
   { path: '', redirectTo: '/app', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'home', component: HomeComponent },
   {path: 'app',component:LandingPageComponent},
+ 
   {
     path: 'menu', component: MenuComponent, children:
       [

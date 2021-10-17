@@ -1,23 +1,62 @@
-.containeru{
-    background-image: url('https://images.pexels.com/photos/6867966/pexels-photo-6867966.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-    background-position: center;
-    
-    // width: 111px;
-    display: flex;
-    position: relative;
-    height: 40vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    
-    
-  
-   
-  }
-  h4{
-    text-align: center;
-    color: white;
-     }
-     
-     #mapid { height: 180px; }
+#mapid {
+        height: 60vh;
+        width: 80vh;
+        margin-top: 10px;
+
+       }
+       .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #f1f1f1;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .flex-container1 {
+                display: flex;
+                flex-direction: column;
+                background-color: #f1f1f1;
+                justify-content: center;
+                align-items: center;
+                
+                }
+        
+      button{
+        background-color: #0f869a;
+        border-radius: 25px;
+        color: white;
+        width: 30%;
+        margin-left: 170%;
+      }
+      input{
+        width: 80%;
+      }
+      mdb-icon{
+          color: #0f869a; 
+      }
+        form{
+          background-color: white;
+          width: 35%;
+          height: 300px;
+          -webkit-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+          -moz-box-shadow: 1px 4px 14px -1px rgba(15,134,154,255);
+          box-shadow: 1px 4px 14px -1px rgba(15,134,154,255); 
+      
+          
+        }
+        .picture{
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+         padding: 10px;
+        }
+       
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 50%;
+          margin: 10px;
+          margin-left: 16px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }

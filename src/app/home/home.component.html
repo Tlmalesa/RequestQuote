@@ -1,10 +1,61 @@
-
-
-
 <app-menu></app-menu>
 
-<!-- <div class="containeru">
-    <h4>Place an Order or Request a Quote </h4>
-   </div> -->
-   <div id="mapid"></div> 
-   <app-footer></app-footer>
+<div class="picture">
+    <img src="../../assets/images/undraw_On_the_way_re_swjt.svg" style="width: 40%;height: 40%;" alt="">
+</div>
+<div class="flex-container1">
+    <div class="flex-container">
+    <form class="text-center border border-light p-5">
+
+        <p>Collection Information</p>
+
+        <div class="form-row mb-4">
+            <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" (click)="map()" class="form-control" style="margin-left: 40px;"
+                    placeholder="Search Location">
+                           
+            </div>
+        </div>
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
+            placeholder="Name">
+        <!-- E-mail -->
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
+            placeholder="Cellphone">
+
+            <div id="mapid"></div>
+
+
+
+
+    </form>
+    <form class="text-center border border-light p-5">
+
+        <p>Destination Information</p>
+
+        <div class="form-row mb-4">
+            <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" style="margin-left: 40px;"
+                    placeholder="Search Location">
+                    
+            </div>
+        </div>
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
+            placeholder="Name">
+        <!-- E-mail -->
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
+            placeholder="Cellphone">
+
+
+
+<div id="mapid"></div>
+        
+
+    </form>
+    <!-- Sign up button -->
+   
+</div>
+<button mdbBtn block="true"  class="my-4" type="submit">Send</button>
+</div>
+<app-footer></app-footer>
