@@ -10,12 +10,21 @@
         <p>Collection Information</p>
 
         <div class="form-row mb-4">
-            <div class="col">
+            <!-- <div class="col"> -->
                 <!-- First name -->
-                <input type="text" id="defaultRegisterFormFirstName" (click)="map()" class="form-control" style="margin-left: 40px;"
+                <!-- <input type="text" id="defaultRegisterFormFirstName" (click)="map()" class="form-control" style="margin-left: 40px;"
                     placeholder="Search Location">
                            
-            </div>
+            </div> -->
+            <div class="input-group">
+                <div class="form-outline">
+                  <input id="search-input" type="search" id="form1" (click)="map()"   placeholder="Search Location" class="form-control" />
+                  <!-- <label class="form-label" for="form1">Search</label> -->
+                </div>
+                <!-- <button id="search-button" type="button" class="btn"> -->
+                  <i class="fas fa-search"></i>
+                <!-- </button> -->
+              </div>
         </div>
         <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
             placeholder="Name">
@@ -34,12 +43,21 @@
         <p>Destination Information</p>
 
         <div class="form-row mb-4">
-            <div class="col">
+            <!-- <div class="col"> -->
                 <!-- First name -->
-                <input type="text" id="defaultRegisterFormFirstName" class="form-control" style="margin-left: 40px;"
-                    placeholder="Search Location">
-                    
-            </div>
+                <!-- <input type="text" id="defaultRegisterFormFirstName" class="form-control" style="margin-left: 40px;"
+                    placeholder="Search Location"> -->
+                    <div class="input-group">
+                        <div class="form-outline">
+                          <input id="search-input" type="search" id="form1"   placeholder="Search Location" class="form-control" />
+                          <!-- <label class="form-label" for="form1">Search</label> -->
+                          <i class="fas fa-search"></i>
+                        </div>
+                        <!-- <button id="search-button" type="button" class="btn"> -->
+                         
+                        <!-- </button> -->
+                      </div>
+            <!-- </div> -->
         </div>
         <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" style="margin-left: 40px;"
             placeholder="Name">
